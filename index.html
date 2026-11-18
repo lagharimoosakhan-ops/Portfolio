@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Muhammad Moosa Laghari | Enterprise Applications & AI Automation</title>
+<meta name="description" content="Portfolio of Muhammad Moosa Laghari, Senior Enterprise Applications Engineer: SharePoint, Project Server EPM, Planview, Power Platform and AI automation. Doha, Qatar.">
+<meta property="og:title" content="Muhammad Moosa Laghari | Enterprise Applications & AI Automation">
+<meta property="og:description" content="11 years building, integrating and modernizing Microsoft business platforms across the GCC. Now extending into Power Platform and AI agents.">
+<style>
+:root{--navy:#0f2342;--ink:#1d2939;--muted:#5b6b80;--teal:#0e8a9a;--teal2:#14b8c8;--bg:#f6f8fb;--card:#fff;--line:#e3e8ef;--gold:#c9a24a}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:10;background:rgba(15,35,66,.96);backdrop-filter:blur(6px)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav .logo{color:#fff;font-weight:700;letter-spacing:.5px}nav .logo span{color:var(--teal2)}
+nav ul{display:flex;gap:20px;list-style:none;align-items:center}nav ul a{color:#cfd8e6;font-size:.9rem}nav ul a:hover{color:#fff;text-decoration:none}
+nav .li{background:#0a66c2;color:#fff!important;padding:5px 12px;border-radius:6px;font-weight:600}
+header{background:linear-gradient(135deg,#0f2342 0%,#123a63 55%,#0e8a9a 100%);color:#fff;padding:90px 0 80px}
+header .tag{display:inline-block;border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:4px 14px;font-size:.82rem;margin-bottom:18px;color:#d7f6fa}
+header h1{font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.15;margin-bottom:14px}
+header p.lead{font-size:1.15rem;max-width:760px;color:#dbe5f2}
+.cta{margin-top:30px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:11px 22px;border-radius:8px;font-weight:600;font-size:.95rem;display:inline-flex;align-items:center;gap:8px}
+.btn.p{background:var(--teal2);color:#04202a}.btn.s{border:1px solid rgba(255,255,255,.5);color:#fff}.btn.l{background:#0a66c2;color:#fff}.btn:hover{text-decoration:none;opacity:.9}
+.btn svg{width:18px;height:18px;fill:currentColor}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-40px;position:relative}
+.stat{background:var(--card);border-radius:12px;padding:22px;box-shadow:0 8px 24px rgba(15,35,66,.08);text-align:center}
+.stat b{display:block;font-size:2rem;color:var(--navy)}.stat span{color:var(--muted);font-size:.88rem}
+section{padding:70px 0}section h2{font-size:1.9rem;color:var(--navy);margin-bottom:8px}
+.sub{color:var(--muted);margin-bottom:34px;max-width:720px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
+.case{border-top:4px solid var(--teal)}.case.dev{border-top-color:#f59e0b}
+.case .meta{font-size:.8rem;text-transform:uppercase;letter-spacing:.6px;color:var(--teal);font-weight:700}
+.case.dev .meta{color:#b45309}
+.case h3{font-size:1.2rem;color:var(--navy);margin:6px 0 10px}
+.case dl{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;font-size:.92rem}
+.case dt{font-weight:700;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.chip{background:#eaf6f8;color:#0b5f6a;border-radius:14px;padding:2px 10px;font-size:.76rem;font-weight:600}
+.flow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0;font-size:.82rem}
+.flow div{background:var(--navy);color:#fff;border-radius:6px;padding:6px 10px}.flow i{color:var(--teal);font-style:normal;font-weight:700}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.filters button{border:1px solid var(--line);background:#fff;border-radius:20px;padding:6px 14px;cursor:pointer;font:inherit;font-size:.86rem;color:var(--ink)}
+.filters button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.pj{display:flex;flex-direction:column}.pj .c{font-size:.78rem;color:var(--muted)}.pj h4{color:var(--navy);margin:4px 0 8px;font-size:1.02rem}
+.pj p{font-size:.9rem;flex:1}.pj .chips{margin-top:12px}
+.skill h4{color:var(--navy);margin-bottom:8px}.lvl{font-size:.72rem;font-weight:700;padding:1px 8px;border-radius:10px;margin-left:6px;vertical-align:middle}
+.lvl.e{background:#dcfce7;color:#166534}.lvl.h{background:#e0f2fe;color:#075985}.lvl.d{background:#fef3c7;color:#92400e}
+.timeline{border-left:3px solid var(--teal);padding-left:26px}
+.tl{position:relative;margin-bottom:30px}.tl:before{content:"";position:absolute;left:-34px;top:6px;width:13px;height:13px;border-radius:50%;background:#fff;border:3px solid var(--teal)}
+.tl .d{font-size:.84rem;color:var(--teal);font-weight:700}.tl h4{color:var(--navy)}.tl p{color:var(--muted);font-size:.93rem}
+.roadmap li{margin:0 0 10px 18px}
+.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+/* Lab */
+#lab{background:radial-gradient(ellipse at 20% 0%,#2a1b4d 0%,#0b0f1f 60%);color:#e6e9f2}
+#lab h2{color:#fff}#lab .sub{color:#aab3c8}
+.art{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center;background:rgba(255,255,255,.04);border:1px solid rgba(201,162,74,.35);border-radius:16px;padding:22px}
+.frame{position:relative;border-radius:12px;overflow:hidden;border:1px solid rgba(201,162,74,.5);aspect-ratio:16/10;background:#000}
+.frame iframe{width:100%;height:100%;border:0;display:block}
+.frame .shield{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:flex-end;padding:10px;background:linear-gradient(transparent 70%,rgba(0,0,0,.55))}
+.frame .shield a{background:rgba(0,0,0,.6);color:var(--gold);border:1px solid var(--gold);border-radius:6px;padding:4px 10px;font-size:.8rem}
+.art .eyebrow{color:var(--gold);font-size:.8rem;letter-spacing:2px;text-transform:uppercase;font-weight:700}
+.art h3{font-family:Georgia,"Times New Roman",serif;font-size:2rem;color:#fff;margin:6px 0 12px;font-style:italic}
+.art p{color:#c7cee0;font-size:.95rem;margin-bottom:12px}
+.art .chip{background:rgba(201,162,74,.15);color:#e8cf8a}
+.btn.g{background:var(--gold);color:#1a1205}
+footer{background:var(--navy);color:#cfd8e6;padding:50px 0;text-align:center}footer h2{color:#fff;margin-bottom:10px}footer a{color:var(--teal2)}
+.note{font-size:.8rem;color:var(--muted);margin-top:18px}
+@media(max-width:860px){.grid2,.grid3,.stats,.art{grid-template-columns:1fr 1fr}.art{grid-template-columns:1fr}nav ul{display:none}}
+@media(max-width:560px){.grid2,.grid3,.stats{grid-template-columns:1fr}.case dl{grid-template-columns:1fr}}
+</style></head><body>
+
+<nav><div class="wrap"><div class="logo">M<span>M</span>L</div>
+<ul><li><a href="#cases">Case Studies</a></li><li><a href="#projects">Client Projects</a></li><li><a href="#ai">AI & Automation</a></li><li><a href="#lab">Lab</a></li><li><a href="#skills">Skills</a></li><li><a href="#journey">Journey</a></li><li><a class="li" href="https://www.linkedin.com/in/mohammed-moosa-laghari-383ab1ab/" target="_blank" rel="noopener">LinkedIn</a></li></ul></div></nav>
+
+<header><div class="wrap">
+<div class="tag">Doha, Qatar · Open to Qatar, GCC, remote & contract roles</div>
+<h1>Muhammad Moosa Laghari</h1>
+<p class="lead"><b>Senior Enterprise Applications Engineer</b>, working across Microsoft Power Platform, SharePoint and AI automation. I have spent 11 years building, integrating, running and modernizing Microsoft business platforms for banks, energy companies, governments and enterprises across the GCC.</p>
+<div class="cta"><a class="btn p" href="#cases">View case studies</a>
+<a class="btn l" href="https://www.linkedin.com/in/mohammed-moosa-laghari-383ab1ab/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>Connect on LinkedIn</a>
+<a class="btn s" href="CV.pdf">Download CV</a></div>
+</div></header>
+
+<div class="wrap"><div class="stats">
+<div class="stat"><b>11</b><span>years in enterprise IT</span></div>
+<div class="stat"><b>25+</b><span>client engagements</span></div>
+<div class="stat"><b>6</b><span>countries delivered in</span></div>
+<div class="stat"><b>0</b><span>data lost in the SharePoint SE migration</span></div>
+</div></div>
+
+<section id="cases"><div class="wrap">
+<h2>Featured Case Studies</h2>
+<p class="sub">Projects I led or owned from start to finish. Client environments are described at the level of method and outcome. No confidential data, screenshots or system names are shown.</p>
+<div class="grid2">
+
+<div class="card case"><div class="meta">QNB Group · Banking · Technical Lead</div>
+<h3>SharePoint Server 2019 → Subscription Edition Migration</h3>
+<dl><dt>Challenge</dt><dd>Move a business-critical banking intranet and document management platform, holding millions of documents, to a supported SharePoint version without disrupting the business or losing data.</dd>
+<dt>Approach</dt><dd>Assessment and dependency mapping, a new farm and service application build, a security and authentication review, rehearsed cutover, then post-migration validation.</dd>
+<dt>Outcome</dt><dd><b>Completed with zero data loss.</b> The platform is now on Microsoft's current on-premises release.</dd></dl>
+<div class="chips"><span class="chip">SharePoint SE</span><span class="chip">SQL Server</span><span class="chip">Kerberos SSO</span><span class="chip">PowerShell</span></div></div>
+
+<div class="card case"><div class="meta">QNB Group · Banking · End-to-End Owner</div>
+<h3>Project Server 2013 → 2016 → 2019 Modernization</h3>
+<dl><dt>Challenge</dt><dd>Upgrade the bank's enterprise project management (EPM) platform across two version jumps while keeping project, resource and PWA data intact.</dd>
+<dt>Approach</dt><dd>Staged database upgrades, resolution of SharePoint dependencies, PWA reconfiguration, migration troubleshooting and production validation.</dd>
+<dt>Outcome</dt><dd><b>Project Server 2019 went live successfully in October 2023.</b></dd></dl>
+<div class="chips"><span class="chip">Project Server 2019</span><span class="chip">PWA</span><span class="chip">SQL Server</span></div></div>
+
+<div class="card case"><div class="meta">QNB Group · Integration · Designer & Builder</div>
+<h3>SharePoint → Planview AdaptiveWork Integration</h3>
+<div class="flow"><div>SharePoint form</div><i>→</i><div>Workflow builds structured email</div><i>→</i><div>Planview workflow rule parses it</div><i>→</i><div>Records created or updated</div></div>
+<dl><dt>Challenge</dt><dd>Get business requests captured in SharePoint into the bank's portfolio management (PPM) platform without anyone re-entering them by hand.</dd>
+<dt>Approach</dt><dd>Designed a lightweight integration that uses email as the transport, with parsing logic inside Planview's workflow rules. It needed no extra middleware.</dd>
+<dt>Role</dt><dd>Planview AdaptiveWork <b>super administrator</b>, responsible for configuration, users, permissions and workflow rules.</dd></dl>
+<div class="chips"><span class="chip">Planview AdaptiveWork</span><span class="chip">SharePoint</span><span class="chip">Workflow automation</span></div></div>
+
+<div class="card case"><div class="meta">QAFCO · Industrial · Production App</div>
+<h3>Career Fair Candidate Registration App</h3>
+<div class="flow"><div>Power Apps</div><i>→</i><div>Data store</div><i>→</i><div>Power Automate</div><i>→</i><div>Notifications & processing</div></div>
+<dl><dt>Challenge</dt><dd>Register candidates at QAFCO's career fair quickly and consistently, and route their details to the recruitment team.</dd>
+<dt>Approach</dt><dd>Built a Power Apps registration app with Power Automate flows that process each submission.</dd>
+<dt>Outcome</dt><dd><b>Deployed and used in production</b> at the career fair.</dd></dl>
+<div class="chips"><span class="chip">Power Apps</span><span class="chip">Power Automate</span><span class="chip">Microsoft 365</span></div></div>
+
+<div class="card case"><div class="meta">K-Electric · Utilities · Developer / Admin / Config Manager</div>
+<h3>SharePoint 2010 → 2019 Upgrade with Project Server 2019</h3>
+<dl><dt>Scope</dt><dd>Built SharePoint 2019 and Project Server 2019 farms with a high-availability and disaster-recovery architecture. Configured service applications, migrated content with ShareGate and wrote the documentation.</dd>
+<dt>Duration</dt><dd>1 year</dd></dl>
+<div class="chips"><span class="chip">SharePoint 2019</span><span class="chip">Project Server 2019</span><span class="chip">ShareGate</span><span class="chip">HA/DR</span></div></div>
+
+<div class="card case dev"><div class="meta">Independent Project · In Development</div>
+<h3>ERAMS: Enterprise Request & Approval Management System</h3>
+<div class="flow"><div>Canvas App</div><i>→</i><div>Dataverse</div><i>→</i><div>Power Automate</div><i>→</i><div>Copilot Studio agent (next)</div></div>
+<dl><dt>Built</dt><dd>A solution-based build (publisher prefix <code>eram</code>) and a relational Dataverse model of Request Types, Requests and Approval Steps, with lookups, statuses, priorities and autonumbering. The full workflow passes 7 end-to-end tests, and a Dataverse-triggered approval flow runs on submission.</dd>
+<dt>Now</dt><dd>Adding duplicate prevention that survives retries, an approval-processing state and guarded status transitions.</dd></dl>
+<div class="chips"><span class="chip">Dataverse</span><span class="chip">Power Apps</span><span class="chip">Power Automate</span><span class="chip">ALM</span></div>
+<p class="note">Repository and demo video coming soon.</p></div>
+
+</div></div></section>
+
+<section id="projects" class="alt"><div class="wrap">
+<h2>Client Project Portfolio</h2>
+<p class="sub">Selected engagements delivered through Treehouse Consultancy, QDS and Netways across Qatar, the UAE, Oman, Bahrain and Pakistan.</p>
+<div class="filters" id="f"></div>
+<div class="grid3" id="pg"></div>
+</div></section>
+
+<section id="ai"><div class="wrap">
+<h2>AI & Intelligent Automation Roadmap</h2>
+<p class="sub">I am extending what I already know about enterprise platforms into AI agents and intelligent automation. Each item is labelled honestly with its current status.</p>
+<div class="grid3">
+<div class="card"><h4 style="color:var(--navy)">✅ Delivered</h4><ul class="roadmap" style="margin-top:10px">
+<li>Power Apps and Power Automate app in production (QAFCO)</li><li>Workflow automation with Nintex, SharePoint Designer and Planview rules</li><li>PowerShell automation across enterprise farms</li><li>Integration between SharePoint and Planview</li><li>Codex Invocatio, an interactive artwork built and published with AI (<a href="#lab">see the Lab</a>)</li></ul></div>
+<div class="card"><h4 style="color:var(--navy)">🔧 Building now</h4><ul class="roadmap" style="margin-top:10px">
+<li>ERAMS on Dataverse with Power Automate orchestration</li><li>Reliable flow patterns: idempotency, state guards, error handling</li><li>Solution packaging and environment strategy</li></ul></div>
+<div class="card"><h4 style="color:var(--navy)">🎯 Next</h4><ul class="roadmap" style="margin-top:10px">
+<li>Copilot Studio agent over ERAMS ("What's the status of my request?")</li><li>AI Builder classification and extraction for incoming requests</li><li>Agent-assisted approvals and Power Platform ALM pipelines</li></ul></div>
+</div></div></section>
+
+<section id="lab"><div class="wrap">
+<h2>The Lab · Creative AI</h2>
+<p class="sub">Experiments where I direct AI as a creative and engineering partner: I set the vision, iterate on the output and ship the result.</p>
+<div class="art">
+<div class="frame"><iframe src="https://lagharimoosakhan-ops.github.io/codex-invocatio/" title="Codex Invocatio — live preview" loading="lazy"></iframe>
+<div class="shield"><a href="https://lagharimoosakhan-ops.github.io/codex-invocatio/" target="_blank" rel="noopener">Open full screen ↗</a></div></div>
+<div><div class="eyebrow">Interactive AI Artwork · MMXXVI</div>
+<h3>Codex Invocatio</h3>
+<p>An interactive web artwork inspired by Leonardo da Vinci's codices and the Invoker from Valve's Dota 2. I developed it by working with AI: I described the concept, refined the visual direction and fixed problems such as animation smoothness until it was ready to publish.</p>
+<p>It is signed in the corner, da Vinci-style: <i>"Invocatio — M. Laghari, MMXXVI."</i></p>
+<div class="chips"><span class="chip">AI-directed creation</span><span class="chip">HTML / CSS / JS</span><span class="chip">Animation</span><span class="chip">GitHub Pages</span></div>
+<div class="cta" style="margin-top:20px"><a class="btn g" href="https://lagharimoosakhan-ops.github.io/codex-invocatio/" target="_blank" rel="noopener">View the artwork</a></div>
+</div></div></div></section>
+
+<section id="skills" class="alt"><div class="wrap">
+<h2>Capabilities</h2>
+<p class="sub"><span class="lvl e">Expert</span> = years of production delivery · <span class="lvl h">Hands-on</span> = professional or project use · <span class="lvl d">Developing</span> = currently learning or building</p>
+<div class="grid3">
+<div class="card skill"><h4>SharePoint <span class="lvl e">Expert</span></h4><p>Server 2013/2016/2019/SE, Online, farm architecture, service applications, Search, DMS, intranets, migrations, governance, SPFx, PnP</p></div>
+<div class="card skill"><h4>EPM / PPM <span class="lvl e">Expert</span></h4><p>Project Server 2013–2019, PWA, EPTs, PDPs, custom fields, Project Online, Planview AdaptiveWork super administration</p></div>
+<div class="card skill"><h4>Development <span class="lvl e">Expert</span></h4><p>C#, ASP.NET/.NET, JavaScript, jQuery, React, REST, OData, CAML, JSOM, SQL/T-SQL, PowerShell</p></div>
+<div class="card skill"><h4>Workflow & Forms <span class="lvl e">Expert</span></h4><p>Nintex Workflows and Forms, SharePoint Designer workflows, InfoPath, Power Automate, approval patterns</p></div>
+<div class="card skill"><h4>Infrastructure & Identity <span class="lvl e">Expert</span></h4><p>Windows Server, IIS, SQL Server, Active Directory, Entra ID, LDAP, Kerberos SSO, FBA, certificates, HA/DR</p></div>
+<div class="card skill"><h4>Power Platform <span class="lvl h">Hands-on</span></h4><p>Power Apps (Canvas), Power Automate, Dataverse modelling, solutions, connectors, Power BI, DAX, RLS</p></div>
+<div class="card skill"><h4>Dynamics 365 CRM <span class="lvl h">Hands-on</span></h4><p>Installation, infrastructure, IIS/SQL/certificate configuration, SharePoint integration</p></div>
+<div class="card skill"><h4>AI & Agents <span class="lvl d">Developing</span></h4><p>Copilot Studio, AI Builder, Microsoft 365 Copilot, AI-assisted development, agent-assisted workflows</p></div>
+<div class="card skill"><h4>Certifications</h4><p>PL-900 Power Platform Fundamentals (active) · Teams Administrator Associate · MS-100 · 70-347 · 70-339</p></div>
+</div></div></section>
+
+<section id="journey"><div class="wrap">
+<h2>Career Journey</h2><p class="sub">From developer to consultant to the person responsible for platforms in a bank, and now moving into automation.</p>
+<div class="timeline">
+<div class="tl"><div class="d">Apr 2023 – Present</div><h4>SharePoint, EPM & Enterprise Applications Specialist · Netways</h4><p>Client assignment at QNB Group, Group IT (Apr 2023 – Oct 2026). Led the SharePoint SE migration, owned the Project Server 2019 modernization and acted as Planview super administrator.</p></div>
+<div class="tl"><div class="d">Jul 2022 – Mar 2023</div><h4>Senior SharePoint Developer · QDS</h4><p>Client assignment at QAFCO. Built portals, forms and workflows, plus the production Power Apps career fair registration app.</p></div>
+<div class="tl"><div class="d">Feb 2016 – Jun 2022</div><h4>Technology Consultant → Senior → Lead · Treehouse Consultancy</h4><p>Delivered more than 25 Microsoft engagements for government, banking, energy, aviation and education clients across the GCC and Pakistan.</p></div>
+<div class="tl"><div class="d">2015</div><h4>BS Computer Science · Sir Syed University of Engineering & Technology</h4></div>
+</div></div></section>
+
+<footer id="contact"><div class="wrap">
+<h2>Let's talk</h2>
+<p>Interested in enterprise applications, Power Platform and AI automation roles in Qatar, the GCC or remotely.</p>
+<p style="margin-top:14px"><a href="mailto:moosalaghari@hotmail.com">moosalaghari@hotmail.com</a> · +974 5022 4052 · <a href="https://www.linkedin.com/in/mohammed-moosa-laghari-383ab1ab/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/lagharimoosakhan-ops" target="_blank" rel="noopener">GitHub</a> · <a href="https://lagharimoosakhan-ops.github.io/codex-invocatio/" target="_blank" rel="noopener">Codex Invocatio</a></p>
+<p class="note" style="color:#8ea3bf">© 2026 Muhammad Moosa Laghari</p>
+</div></footer>
+
+<script>
+const P=[
+["QNB Group","Qatar","SharePoint DMS & Business Portal","A banking portal and document management system holding millions of documents, with forms, Power BI reports, alerts and Azure AD integration.",["SharePoint","Power Platform"],["SharePoint 2019/SE","Power BI","Power Apps"]],
+["QAFCO","Qatar","Enterprise Portal & DMS","Business analysis and development of a SharePoint and Microsoft 365 portal with forms, reports and notifications.",["SharePoint","Power Platform"],["SharePoint Online","Power Platform","Power BI"]],
+["Dolphin Energy","UAE","Excel-to-Application Modernization","Requirements and solution design for replacing a production tracking system built on manual Excel sheets with a centralized, secure .NET application.",["Development"],["ASP.NET",".NET Core","Data migration"]],
+["K-Electric","Pakistan","SharePoint 2010 → 2019 Upgrade","Built SharePoint and Project Server 2019 with HA/DR, configured service applications and migrated content with ShareGate.",["SharePoint","EPM","Migration"],["SharePoint 2019","ShareGate","Project Server"]],
+["DTCM","UAE","Project Server 2019 Implementation","Configured Project Server 2019 with custom fields, EPTs, PDPs, views and permissions, plus custom SSRS reports.",["EPM"],["Project Server 2019","SSRS"]],
+["ADAFSA (CAMENET)","UAE","Intranet & Internet Portal","SharePoint 2016 portal with custom visual web parts, forms-based authentication, branding and search configuration.",["SharePoint","Development"],["SharePoint 2016","C#","FBA"]],
+["Department of Transport","UAE","Project Server External Integration","Integrated Project Server with an external entity through a custom REST API with token authentication, using SQL CRUD operations.",["EPM","Integration"],["Project Server 2013","REST API","SQL"]],
+["Mashreq Bank","UAE","Project Online EPM & Dashboards","Project Online and SharePoint publishing setup with live dashboards for projects, portfolios and resources.",["EPM"],["Project Online","SharePoint Online"]],
+["Ministry of Interior (Telecom)","UAE","SharePoint & Dynamics CRM Integration","Set up the SharePoint farm and server-based SharePoint integration with Dynamics CRM.",["Integration","SharePoint"],["Dynamics CRM","SharePoint"]],
+["Al Qasimia University","UAE","Portal with Request Workflows","Request and task forms built as .NET visual web parts, with SharePoint Designer 2013 workflows.",["SharePoint","Workflow"],["SharePoint 2016","SPD 2013"]],
+["First Abu Dhabi Bank","UAE","SharePoint & Project Server 2019 EPM","Installed and configured SharePoint 2019, enabled Project Server and built custom submission forms with PnP JS.",["EPM","SharePoint"],["Project Server 2019","PnP JS"]],
+["NYU Abu Dhabi","UAE","Project Server 2016 EPM","Created project sites and PDPs and built custom submission and draft forms.",["EPM"],["Project Server 2016","PnP JS"]],
+["RAK Customs","UAE","Portal with WebSphere Integration","SharePoint 2016 portal with .NET forms, SPD workflows and integration with IBM WebSphere.",["SharePoint","Integration","Workflow"],["SharePoint 2016","WebSphere"]],
+["Ministry of Defence","Oman","SharePoint 2016 & CRM Integration","Installed and configured the farm, built custom components, branding and localization, integrated CRM workflows and promoted from development through staging to production.",["SharePoint","Integration"],["SharePoint 2016","CRM","Arabic/English"]],
+["Oman Airports","Oman","SharePoint 2013 DMS & Farm Migration","Farm build, User Profile Sync, content database migration and a DMS module with document conversion and unique document IDs.",["SharePoint","Migration"],["SharePoint 2013","DMS"]],
+["Khalifa Fund","UAE","Custom FBA with CRM","SharePoint 2016 with custom forms-based authentication against CRM, using Kendo UI components and localization.",["SharePoint","Integration","Development"],["SharePoint 2016","CRM","Kendo UI"]],
+["ADNOC","UAE","Nintex Workflow Portal","A year-long engagement building ShortPoint and .NET components, JSOM and Nintex 2013 workflows and forms.",["Workflow","SharePoint"],["Nintex 2013","JSOM"]],
+["MRHE","UAE","Nintex Responsive Forms & Workflows","Built Nintex 2016 workflows and responsive forms, with client-side SPServices and jQuery components.",["Workflow"],["Nintex 2016","jQuery"]],
+["Gulf Capital","UAE","Nintex Business Workflows","Nintex 2016 workflows and forms for business processes.",["Workflow"],["Nintex 2016"]],
+["Farah Experiences","UAE","Nintex Workflows & Forms","Nintex 2016 workflows and forms on SharePoint 2016.",["Workflow"],["Nintex 2016"]],
+["ADFSC","UAE","InfoPath & SPD Workflow Automation","A 10-month engagement building InfoPath 2013 forms and SharePoint Designer workflows.",["Workflow"],["InfoPath","SPD 2013"]],
+["SEEF Mall","Bahrain","Portal & Branding","Server-side components, portal branding and deployment.",["SharePoint","Development"],["SharePoint"]],
+["World Free Zone Org.","UAE","SharePoint with SSRS","Custom .NET web parts integrated with SQL Reporting Services.",["SharePoint","Development"],["SharePoint 2013","SSRS"]],
+["NATCOM","UAE","Content Management","SharePoint 2016 deployment and content onboarding.",["SharePoint"],["SharePoint 2016"]],
+["The Knowledge Group","UAE","SharePoint, WCF & Mobile","Enhancements and fixes for a SharePoint 2016 solution with WCF services and a mobile app.",["Integration","Development"],["SharePoint 2016","WCF"]]
+];
+const cats=["All","SharePoint","EPM","Workflow","Integration","Migration","Development","Power Platform"];
+const f=document.getElementById("f"),g=document.getElementById("pg");
+function draw(c){g.innerHTML=P.filter(p=>c==="All"||p[4].includes(c)).map(p=>`<div class="card pj"><div class="c">${p[0]} · ${p[1]}</div><h4>${p[2]}</h4><p>${p[3]}</p><div class="chips">${p[5].map(x=>`<span class="chip">${x}</span>`).join("")}</div></div>`).join("");
+[...f.children].forEach(b=>b.classList.toggle("on",b.textContent.startsWith(c+" ")));}
+cats.forEach(c=>{const b=document.createElement("button");const n=c==="All"?P.length:P.filter(p=>p[4].includes(c)).length;b.textContent=`${c} (${n})`;b.onclick=()=>draw(c);f.appendChild(b)});
+draw("All");
+</script></body></html>
